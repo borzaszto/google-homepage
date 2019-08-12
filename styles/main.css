@@ -1,0 +1,178 @@
+/* CSS Styles */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main img {
+    padding: 40px;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.header {
+    float: right;
+    margin: 20px;
+}
+.header li{
+    display: inline-block; 
+    padding: 6px;
+}
+.loginbutton{
+    background-color: royalblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-display: bold; 
+    font-weight: bold;
+    border: none;
+    padding: 6px 12px;
+
+}
+
+.sticky-footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: lightgray;
+}
+
+.graybottom {
+    box-sizing: border-box;
+    border: 1px solid darkgray;
+    border-collapse: collapse;
+    padding: 12px;
+    height: 40px;
+    width: 100%;
+}
+
+.graybottom a {
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+}
+
+.graybottom a:hover {
+    text-decoration: underline;
+}
+
+.leftfooter {
+    float: left;
+}
+.leftfooter li {
+    display: inline-block;
+    padding: 0 20px 0 0;
+}
+
+.rightfooter {
+    float: right;
+}
+
+.rightfooter li {
+    display: inline-block;
+    padding: 0 12px;
+}
+
+.main {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.search-field {
+    width: 460px;
+    font-size: 12pt;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    border-radius: 40px;
+}
+
+.search-field:active {
+    box-shadow: darkgrey 6px;
+}
+
+.search button {
+    background-color: lightgrey;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    margin: 20px 2px 20px 2px;
+}
+
+.search p {
+    padding: 12px;
+}
+
+.search p a {
+    padding: 6px;
+    color: royalblue;
+    text-decoration: none;
+}
+
+.search p a:hover {
+    text-decoration: underline;
+}
+
+
+
+.privacy {
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    height: 100px;
+    vertical-align: middle;
+    padding: auto 20px;
+    font-size: 16pt;
+}
+
+.privacy h1, .privacy img {
+    padding: 24px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.buttons-right {
+    float: right;
+    margin: 28px;
+}
+
+.white-button {
+    padding: 10px 20px;
+    display: inline-block;
+    vertical-align: middle;
+    color: royalblue;
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 12pt;
+    text-transform: uppercase;
+}
+
+.white-button:hover {
+    background-color: lightgray;
+   
+}
+
+.blue-button {
+    padding: 10px 20px;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    background-color: royalblue;
+    border: none;
+    border-radius: 6px;
+    font-size: 12pt;
+    text-transform: uppercase;
+}
+
+.blue-button:hover {
+    background-color: blue;
+}
